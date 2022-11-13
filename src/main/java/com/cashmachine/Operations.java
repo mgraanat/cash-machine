@@ -11,6 +11,8 @@ public class Operations  implements OperationsInterface{
 
     @Override
     public void depositAmount(double depositAmount) {
+        cashMachine.setBalance(cashMachine.getBalance()+depositAmount);
+        System.out.println(depositAmount +" Deposited Correct");
 
     }
 

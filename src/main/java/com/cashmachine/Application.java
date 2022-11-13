@@ -20,6 +20,9 @@ public class Application {
                     operationsInterface.viewBalance();
                 }
                 else if (choose == 2){
+                    System.out.println("Enter Deposit Amount: ");
+                    double depositAmount = in.nextInt();
+                    operationsInterface.depositAmount(depositAmount);
 
                 }
                 else if (choose==3){
