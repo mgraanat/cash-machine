@@ -6,7 +6,7 @@ public class CashMachine {
     private double depositAmount;
     private double withdrawalAmount;
 
-    public CashMachine(double balance, double depositAmount, double withdrawalAmount) {
+    public CashMachine() {
         this.balance = balance;
         this.depositAmount = depositAmount;
         this.withdrawalAmount = withdrawalAmount;
