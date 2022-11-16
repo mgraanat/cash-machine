@@ -26,6 +26,9 @@ public class Application {
 
                 }
                 else if (choose==3){
+                    System.out.println("Enter Withdrawal Amount: ");
+                    double withdrawalAmount = in.nextDouble();
+                    operationsInterface.withdrawalAmount(withdrawalAmount);
 
                 }
                 else if (choose==4){

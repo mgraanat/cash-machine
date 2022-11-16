@@ -18,6 +18,11 @@ public class Operations  implements OperationsInterface{
 
     @Override
     public void withdrawalAmount(double withdrawalAmount) {
+        if(withdrawalAmount <= cashMachine.getBalance()){
+            System.out.println("Withdrawal Correct: " + withdrawalAmount);
+        } else {
+            System.out.println("Insufficient Balance");
+        }
 
     }
 }
